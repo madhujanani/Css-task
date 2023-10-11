@@ -3,14 +3,35 @@ a{
 
     text-decoration: none;
     color: green;
-    font-size: 30px;;
+    font-size: 30px;
+    }
+a:active{
+    background-color: purple;
 }
-p{
+p:nth-of-type(2n){
     text-indent: 50px;
     letter-spacing: 1px;
     line-height: 1.8em;
+    background-color: orange;
+    border-radius: 2em 3em;
+}
+h3 {
+    text-shadow: 2vb 1vb 0.2vb red;
+    }
+input:focus{
+    background-color: blue;
+}
+ul{
+    margin:2em 45em;
+    white-space: nowrap;
+    
+}
+th{}
+
+li:nth-child(n)::before{
+    content: "\1F602";
+    
 
 }
-h3{
-    text-shadow: 4px 4px 2px red;
-}
+
+
