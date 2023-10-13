@@ -1,0 +1,16 @@
+.container{
+    background-color: rgb(225, 231, 231);
+    display: grid;
+    grid-template-columns:repeat(4,100px);
+    grid-auto-rows: 250px 20px;
+    grid-template-rows: ;
+    justify-content: center;
+
+}
+.header{
+    background-color: aquamarine;
+    color: blue;
+
+
+
+}
